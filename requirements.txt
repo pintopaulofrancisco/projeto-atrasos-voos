@@ -1,0 +1,24 @@
+# PySpark
+pyspark>=3.5.0
+
+# Kafka client
+kafka-python>=2.0.2
+
+# Data analysis
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Visualização
+plotly>=5.15.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Jupyter
+notebook
+ipykernel
+
+# (Opcional) Quality profiling e ML extra
+ydata-profiling>=4.6.0
+
+# (Opcional) Streamlit (para visualizações em real-time no modo streaming)
+streamlit>=1.25.0
