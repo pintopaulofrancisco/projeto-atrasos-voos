@@ -83,17 +83,18 @@ cython_debug/
 .pypirc
 
 # ========== ESPECÍFICO PARA ESTE PROJETO ==========
-# Dados originais e processados
-data/raw/
-data/processed/
-*.parquet
+# # Dados originais e processados
+# data/raw/
+# data/processed/
+# data/
+# *.parquet
 *.csv
 *.json
 
-# Modelos treinados
-models/
-*.pkl
-*.model
+# # Modelos treinados
+# models/
+# *.pkl
+# *.model
 
 # Ficheiros temporários e profiling
 *.tmp
@@ -102,3 +103,6 @@ models/
 
 # VSCode
 .vscode/
+
+# Relatório
+relatorio/
